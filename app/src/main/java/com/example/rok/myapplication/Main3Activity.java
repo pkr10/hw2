@@ -44,11 +44,11 @@ public class Main3Activity extends AppCompatActivity {
         });
     }
     public double calculte(double n){
-        double result=(double) n*1.8+3.2;
+        double result=(double) (n*1.8+3.2);
         return result;
     }
     public double calculate1(double n){
-        double result2 = (double)(n-32)/1.8;
+        double result2 = (double)((n-32)/1.8);
         return result2;
     }
 
